@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Quick Setup Project
+
+run in terminal
+1. composer install
+2. composer require laravel/ui
+3. php artisan ui bootstrap
+4. npm install
+5. npm run dev (for development)
+6. php artisan migrate -seed (dont forget to create the db first)
+7. cd public
+8. rm storage
+9. php artisan storage:link
+10. php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
