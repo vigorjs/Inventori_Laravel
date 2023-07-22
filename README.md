@@ -15,11 +15,13 @@ Run in terminal
 3. php artisan ui bootstrap
 4. npm install
 5. npm run dev (for development)
-6. php artisan migrate --seed (dont forget to create the db first)
-7. cd public
-8. rm storage
-9. php artisan storage:link
-10. php artisan serve
+6. cp .env.example .env
+7. php artisan key:generate
+8. php artisan migrate --seed (dont forget to create the db first)
+9. cd public
+10. rm storage
+11. php artisan storage:link
+12. php artisan serve
 
 ## About Laravel
 
