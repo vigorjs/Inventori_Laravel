@@ -9,13 +9,13 @@
 
 ## Quick Setup Project
 
-run in terminal
+Run in terminal
 1. composer install
 2. composer require laravel/ui
 3. php artisan ui bootstrap
 4. npm install
 5. npm run dev (for development)
-6. php artisan migrate -seed (dont forget to create the db first)
+6. php artisan migrate --seed (dont forget to create the db first)
 7. cd public
 8. rm storage
 9. php artisan storage:link
