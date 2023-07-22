@@ -20,8 +20,9 @@ Run in terminal
 8. php artisan migrate --seed (dont forget to create the db first)
 9. cd public
 10. rm storage
-11. php artisan storage:link
-12. php artisan serve
+11. cd ..
+12. php artisan storage:link
+13. php artisan serve
 
 ## About Laravel
 
